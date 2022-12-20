@@ -1,1 +1,1 @@
-import {default} from './AddTaskModal';
+export {default} from './AddTaskModal';

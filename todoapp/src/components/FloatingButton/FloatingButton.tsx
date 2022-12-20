@@ -1,12 +1,18 @@
-import React from 'react';
-import {View, Text} from 'react-native';
+import React, {FC} from 'react';
+import {View, Text, TouchableWithoutFeedback} from 'react-native';
 //styles
 import styles from '../FloatingButton/FloatingButton.style';
-const FloatingButton = () => {
+
+interface IButtonProps {
+  onPress: () => void;
+}
+const FloatingButton: FC<IButtonProps> = ({onPress}) => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.icon}> + </Text>
-    </View>
+    <TouchableWithoutFeedback onPress={onPress}>
+      <View style={styles.container}>
+        <Text style={styles.icon}> + </Text>
+      </View>
+    </TouchableWithoutFeedback>
   );
 };
 
