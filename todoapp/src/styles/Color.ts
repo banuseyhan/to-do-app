@@ -1,7 +1,7 @@
 const Colors = {
-  defaultYellowColor: '#ffb703', //add button color
-  defaultBlueColor: '#8ecae6', //task yazma backgorund color
-  defaultDeepBlueColor: '#023047', // ana ekran background color
-  defaultTitleColor: 'white', //title rengi
+  defaultYellowColor: '#d31638', //add button color
+  defaultBlueColor: '#c5dfdf', //task yazma backgorund color
+  defaultDeepBlueColor: '#c5dfdf', // ana ekran background color
+  defaultTitleColor: '#a71666', //title rengi
 };
 export default Colors;

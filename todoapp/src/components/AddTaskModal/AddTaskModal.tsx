@@ -25,7 +25,7 @@ const AddTaskModal: FC<IModalProps> = ({isVisible, onClose, onAddTask}) => {
         <TextInput
           style={styles.input}
           placeholder="Task..."
-          placeholderTextColor="white"
+          placeholderTextColor="#bd9e84"
           multiline={true}
           onChangeText={t => setTaskInputValue(t)}
           value={taskInputValue}/>

@@ -6,7 +6,7 @@ import styles from '../FloatingButton/FloatingButton.style';
 interface IButtonProps {
   onPress: () => void;
 }
-const FloatingButton: FC<IButtonProps> = ({onPress}) => {
+const FloatingButton = ({onPress}: IButtonProps) => {
   return (
     <TouchableWithoutFeedback onPress={onPress}>
       <View style={styles.container}>

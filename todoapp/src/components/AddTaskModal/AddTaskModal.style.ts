@@ -28,6 +28,8 @@ export default StyleSheet.create({
     borderColor: 'white',
     marginTop: 30,
     color: 'white',
+    paddingVertical: 12,
+    paddingHorizontal: 16,
   },
   buttonContainer: {
     backgroundColor: Colors.defaultYellowColor,
